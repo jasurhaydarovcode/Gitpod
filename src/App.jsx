@@ -1,3 +1,4 @@
+import Hero from "./components/Hero/Hero"
 import Nav from "./components/Navbar/Navbar"
 
 function App() {
@@ -7,6 +8,12 @@ function App() {
       {/* START NAVBAR */}
       <Nav />
       {/* END NAVBAR */}
+
+
+
+      {/* START HERO */}
+      <Hero />
+      {/* END HERO */}
     </>
   )
 }

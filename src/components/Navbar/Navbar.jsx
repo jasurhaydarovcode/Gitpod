@@ -4,12 +4,12 @@ import images from '../../assets/images'
 const Nav = () => {
     return (
         <div className='container'>
-            <Navbar fluid rounded>
+            <Navbar fluid rounded className='bg-[#F5F3F4]'>
                 <Navbar.Brand href="">
                     <img src={images[0]} className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
                 </Navbar.Brand>
                 <div className="flex md:order-2">
-                    <Button className='bg-[#12100C] w-24 rounded-xl'>Login</Button>
+                    <Button className='bg-mainZero w-24 rounded-xl'>Login</Button>
                     <Navbar.Toggle />
                 </div>
                 <Navbar.Collapse>

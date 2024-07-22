@@ -2,7 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: #F5F3F4;
+}
+
 .container {
   @apply mx-auto my-0;
   max-width: 2000px;
 }
+
+
+/* START SELECTION */
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+
+/* END SELECTION */

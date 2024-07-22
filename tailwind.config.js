@@ -10,7 +10,12 @@ export default {
     extend: {
       colors: {
         bl: '#12100CB2',
+        mainZero: '#12100C',
+        mainGray: '#12100CB2',
       },
+      backgroundImage: {
+        'hero-pattern': "url('./src/assets/images/Hero/Rectangle.svg')",
+      }
     },
   },
   plugins: [
